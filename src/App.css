@@ -1,0 +1,21 @@
+.base{
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+.billing {
+  padding: 10px 40px;
+}
+@media screen and (max-width: 900px) {
+
+  .billing {
+    padding: 0px 0px;
+  }
+  .base{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+}

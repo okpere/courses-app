@@ -1,0 +1,49 @@
+.sidebar{
+    background-color: rgb(217,217,217);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+    width: 30%;
+}
+.sidebar-top{
+    text-align: center;
+}
+.sidebar-top h1{
+    color: blue;
+    text-shadow: 2px 2px black;
+    padding-bottom: 20px;
+}
+.sidebar-med{
+    text-align: center;
+}
+.work{
+    padding: 20px 20px;
+    font-weight: 100;
+    
+}
+.waha{
+    font-size: 40px;
+    padding: 20px;
+}
+.sidebar-button{
+    padding: 40px;
+    position: relative;
+}
+
+
+  @media screen and (max-width: 900px) {
+
+    
+    .sidebar{
+        background-color: rgb(217,217,217);
+        padding: 50px  0px;
+        width: 100%;
+      }
+     
+    
+    
+  }
+
